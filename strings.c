@@ -21,8 +21,6 @@ int main(){
 	//Reading the first line of the text.
 	fgets(inputLine,LINE,stdin);
 	int j = 0;
-	
-	//
 	while(inputLine[j] != ' '){
 		//Reading the word we are looking for in the text.
 		inputWord[j] = inputLine [j];
